@@ -118,3 +118,5 @@ You have full control over the AI's strategic knowledge base. You can modify its
 -   **To remove a strategy:** Delete the corresponding `.txt` file from the folder.
 
 **Important:** After making any changes to the context files, you must **restart the application**. The app only uploads the context files on startup.
+
+Good luck this season!
