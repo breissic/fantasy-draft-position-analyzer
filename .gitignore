@@ -1,0 +1,14 @@
+# environment variables
+.env
+
+# artifacts
+__pycache__/
+*.pyc 
+*.pyo  
+*.pyd 
+
+# venv
+venv/
+.venv/
+
+notes.txt

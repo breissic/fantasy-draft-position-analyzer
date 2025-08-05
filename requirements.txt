@@ -1,0 +1,6 @@
+# For loading environment variables from .env
+python-dotenv
+
+# Google's library for the Gemini API
+google-generativeai
+
