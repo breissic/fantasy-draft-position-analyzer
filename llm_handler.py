@@ -4,7 +4,7 @@ import json
 import os
 from config import GEMINI_API_KEY
 
-# Setup
+# setup
 client = genai.Client()
 context_file_references = []
 context_directory = 'context'
