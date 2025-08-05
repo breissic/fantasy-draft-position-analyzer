@@ -12,7 +12,7 @@ The application operates on a few core components:
 
 1.  **AI Engine (`llm_handler.py`):** This is the brain of the operation. It uses the `google-genai` library to communicate with the Gemini Pro model. On startup, it uploads a collection of strategy documents from the `context/` directory to give the AI its foundational knowledge.
 2.  **Context Files (`context/`):** A series of `.txt` files, each containing a detailed breakdown of a specific fantasy football strategy (e.g., Value-Based Drafting, Zero RB, Positional Scarcity). These files are used to construct the AI's knowledge base for every request.
-3.  **Graphical User Interface (`gui.py` & `app.py`):** A sleek, dark-themed desktop application built with `customtkinter`. It provides a user-friendly interface to input league settings, track your draft progress, and receive recommendations from the AI.
+3.  **Graphical User Interface (`gui.py` & `app.py`):** Desktop application built with `customtkinter`. It provides a user-friendly interface to input league settings, track your draft progress, and receive recommendations from the AI.
 
 The core logic involves sending a carefully constructed "few-shot" prompt to the AI, which includes the strategic context files, your league settings, the current round, your roster, and an example of the desired JSON output format. This ensures that the responses are not only strategically sound but also structured and reliable.
 
