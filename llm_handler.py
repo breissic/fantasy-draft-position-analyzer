@@ -23,7 +23,7 @@ if not context_file_references:
     print("Context file upload complete")
 
 # main function
-def get_draft_recommendation(roster_settings, scoring_format, current_round, current_roster):
+def get_draft_recommendation(roster_settings, scoring_format, league_size, current_round, current_roster):
     
     # model we are sending requests to
     model_name = "gemini-2.5-pro" 
@@ -46,6 +46,7 @@ def get_draft_recommendation(roster_settings, scoring_format, current_round, cur
     **League Configuration & Draft Status:**
     * Roster Settings: 1QB, 2RB, 2WR, 1TE, 1FLEX
     * Scoring Format: Half-PPR
+    * League Size: 12 Teams
     * Current Round: 3
     * My Current Roster: 1 QB, 1 RB
     """
@@ -64,6 +65,7 @@ def get_draft_recommendation(roster_settings, scoring_format, current_round, cur
     **League Configuration & Draft Status:**
     * Roster Settings: {roster_settings}
     * Scoring Format: {scoring_format}
+    * League Size: {league_size}
     * Current Round: {current_round}
     * My Current Roster: {current_roster}
     ---
