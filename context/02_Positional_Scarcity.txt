@@ -1,0 +1,22 @@
+Positional Scarcity: The Economics of Talent Distribution
+
+Positional scarcity is the economic principle that the supply and demand for elite talent at different positions directly impacts player value.2 It provides a qualitative lens that complements the quantitative analysis of VBD.
+
+Core Principle and Identifying Scarcity
+
+The core idea is that positions with a limited supply of high-performing players, such as running back and tight end, become inherently more valuable because the demand for weekly starters outstrips the supply of reliable options.6 The modern NFL's trend toward committee backfields has only increased the scarcity of true "workhorse" running backs, further elevating their value.7
+Scarcity is best visualized by identifying "talent cliffs" or "drop-offs" within positional rankings.7 A steep drop-off occurs when there is a large gap in projected performance between one group of players and the next. For example, the difference in weekly scoring potential between the TE4 and the TE8 is typically much larger than the difference between the WR24 and the WR28. Recognizing where these cliffs exist is the key to applying the scarcity principle effectively.10
+
+Strategic Application and Theoretical Tensions
+
+The primary strategic application of scarcity is to prioritize drafting players from scarce positions before a talent cliff is reached. This may mean selecting the last remaining tight end from a high tier over a wide receiver from a similarly ranked tier if the tight end position is about to experience a significant drop in quality while the wide receiver position remains deep.10
+This creates a strategic tension between VBD, scarcity, and the simpler "Best Player Available" (BPA) philosophy.7 VBD is, in effect, the mathematical quantification of scarcity; a player at a scarce position will have a high VBD score precisely because the replacement-level baseline is so low. However, a strict VBD or scarcity-driven pick may conflict with what appears to be the BPA. For example, a model might suggest drafting the last running back in Tier 2 to avoid the subsequent talent cliff. But if a wide receiver who belongs to a higher overall tier is still on the board, that receiver is arguably the BPA.
+Resolving this tension requires a dynamic, forward-looking assessment. The optimal decision is not always to fill the scarce position but to select the player who provides the largest net value gain for the roster. This involves a more complex calculation that models future opportunity cost, weighing the value gained by securing the scarce player now against the potential value lost by passing on the BPA at a deeper position.
+
+Core Principles & Directives
+
+Principle: The value of a position is inversely related to the supply of elite talent available at that position.6
+Directive: Identify positional "talent cliffs"—significant drop-offs in projected performance between tiers of players.7
+Directive: Prioritize drafting players from scarce positions just before a talent cliff is reached to maximize positional advantage.10
+Principle: Scarcity creates a strategic tension between filling a shallow position and selecting the objective "Best Player Available" at a deeper position.7
+Directive: Evaluate the opportunity cost of each pick, weighing the value gained from securing a scarce player against the value lost by passing on a superior talent at a deep position.

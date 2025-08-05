@@ -1,0 +1,22 @@
+RB Strategy Summary
+
+Strategy: Robust RB
+Core Principle: Dominate the scarcest position by acquiring multiple elite RBs early.
+RB Capital Allocation (Rounds 1-6): 3-4+ RBs.
+Primary Bet: RB legendary upside and market disruption.
+Key Risk Factor: Concentrated injury/bust risk in a single position group.
+Optimal Scoring Format: Standard (Non-PPR).
+
+Strategy: Zero RB
+Core Principle: Arbitrage RB volatility by loading up on elite non-RBs early.
+RB Capital Allocation (Rounds 1-6): 0-1 RBs.
+Primary Bet: RB volatility and the stability of elite WRs/TEs.
+Key Risk Factor: Failure of late-round RBs to emerge, creating a production void.
+Optimal Scoring Format: Full PPR.
+
+Strategy: Hero RB
+Core Principle: Secure one elite "anchor" RB, then build around them with non-RBs.
+RB Capital Allocation (Rounds 1-6): 1 RB.
+Primary Bet: A balanced roster construction that mitigates some risk.
+Key Risk Factor: Single point of failure if the "Hero RB" busts or is injured.
+Optimal Scoring Format: Half-PPR / Full PPR.

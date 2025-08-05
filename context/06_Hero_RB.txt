@@ -1,0 +1,21 @@
+Hero RB: A Hybrid, Anchor-Based Strategy
+
+Hero RB, also known as Anchor RB, is a popular hybrid strategy that attempts to find a balanced middle ground between the extremes of Robust RB and Zero RB.18
+
+Core Principle and Execution
+
+The execution is straightforward: a manager drafts a single, elite "hero" running back in the first or second round.14 After securing this "anchor," the manager then immediately pivots to a Zero RB-style approach, ignoring the running back position for the next several rounds to load up on elite talent at wide receiver, tight end, and quarterback.25 The running back corps is then filled out in the middle and late rounds, much like in a Zero RB build.
+This strategy seeks to capture the best of both worlds. It addresses positional scarcity by securing a top-tier player at the most valuable position, thus mitigating the primary fear of the Zero RB manager (having no reliable RB).25 At the same time, by investing in only one early-round running back, it frees up significant mid-round draft capital to build depth and strength at other positions, capturing the main advantage of the Zero RB approach.18
+
+Risk/Reward Analysis
+
+A successful Hero RB build often results in the most balanced and powerful roster, featuring a reliable, high-scoring running back alongside a strong supporting cast. It is often perceived as a "safer" construction than its more extreme counterparts.25
+However, the entire structural integrity of the team rests on a single point of failure: the health and performance of the one Hero RB.25 If this anchor pick busts or suffers a major injury, the strategy collapses. The manager is left in a compromised position, having spent premium draft capital for no return while still facing a massive hole at the position. For this reason, the selection of the hero is critical. The ideal archetype is not just any high-scoring back, but one with an exceptionally high floor, a significant role in the passing game to ensure weekly consistency, and a favorable injury history. The goal of the first pick is to minimize downside at one key spot in order to maximize upside everywhere else.
+
+Core Principles & Directives
+
+Directive: In rounds 1 or 2, draft exactly one elite "anchor" Running Back.25
+Directive: In the subsequent 4-5 rounds, strictly avoid drafting more Running Backs. Focus on acquiring elite WRs, TEs, and an optional elite QB.25
+Principle: This strategy's success is entirely dependent on the health and performance of the single "Hero RB".25
+Principle: This build is a calculated risk that attempts to balance RB scarcity against the value of elite players at other positions.18
+Directive: Target "Hero RB" candidates who have a high weekly floor, significant involvement in the passing game, and a favorable injury history to minimize risk.

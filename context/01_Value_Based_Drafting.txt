@@ -1,0 +1,37 @@
+Foundational Drafting Theories: The Intellectual Framework of Player Valuation
+
+The architecture of any successful fantasy football draft is built upon a foundation of core theoretical principles. These theories provide a systematic framework for evaluating player worth, enabling managers to move beyond simple rankings and make decisions based on quantifiable value and strategic context. Understanding these concepts—Value-Based Drafting, Positional Scarcity, and Tier-Based Drafting—is the prerequisite for executing any advanced roster construction strategy.
+
+Value-Based Drafting (VBD): A Quantitative Approach to Player Worth
+
+Value-Based Drafting (VBD) is an analytical method that shifts the focus of player evaluation from absolute projected points to relative positional advantage. It provides a quantitative tool to compare the value of players across different positions, forming the bedrock of data-driven draft strategy.
+
+Core Principle: Value Over Replacement Player (VORP)
+
+The guiding principle of VBD is that a player's true worth is not determined by the total number of points they score, but by how much they outscore a commonly available "replacement-level" player at the same position.1 This differential is a player's value. This concept, often called Value Over Replacement Player (VORP), reframes the draft from a simple accumulation of projected points into a strategic exercise in maximizing the marginal advantage at each starting roster spot.3
+For instance, a quarterback projected to score 300 fantasy points might seem more valuable than a running back projected for 250 points. However, if the 12th-best quarterback (a likely replacement-level player in a 12-team league) is projected for 280 points, the elite quarterback's VBD score is only +20. If the 24th-best running back is projected for 180 points, the elite running back's VBD score is +70. In this scenario, the running back is the more valuable fantasy asset because he provides a far greater positional advantage over his peers.2
+
+The VBD Calculation: Establishing a Positional Baseline
+
+The VBD process begins with the most labor-intensive step: generating detailed statistical projections for every draftable player.1 These raw stats are then converted into projected fantasy points based on the league's specific scoring rules.
+The next, and most critical, step is to establish a "baseline" score for each position. This baseline represents the projected score of a replacement-level player, and all other players at that position are measured against it.2 The choice of this baseline is highly subjective and has a profound impact on the final VBD rankings. Common methods for setting a baseline include using the projected score of:
+The last projected starter at a position (e.g., the 12th-ranked QB or 24th-ranked RB in a 12-team league with two starting RBs).2
+A player at a specific overall draft position (e.g., the 100th player drafted).5
+The top-ranked player expected to be available on the waiver wire after the draft.
+Once the baseline is set, a player's VBD score (sometimes called an "X-number") is calculated with the formula:
+VBDscore​=Player’s Projected Points−Positional Baseline Points
+This score quantifies the player's marginal value.1
+
+Strategic Application and Critical Vulnerabilities
+
+By calculating a VBD score for every player, a manager can create a single, unified draft board that ranks all players from all positions by their relative value.1 This allows for direct, objective comparisons between, for example, a wide receiver and a tight end.
+The strengths of VBD lie in its objectivity and flexibility. It minimizes emotional bias and can be customized to any league's unique scoring and roster settings.4 However, the model has critical vulnerabilities. Its output is entirely dependent on the accuracy of the initial projections; flawed projections will yield flawed value scores.2 Moreover, the model is extremely sensitive to the chosen baseline. A poorly defined baseline can dramatically skew values, often artificially inflating the scores for running backs if the replacement level is set too low.5
+A sophisticated application of VBD must therefore recognize that it is not merely an arithmetic exercise but a predictive modeling challenge. Standard projections often fail to account for the differential volatility between positions; for example, running back performance is historically more volatile and injury-prone than wide receiver performance.5 A robust VBD model must incorporate risk-adjusted calculations, such as regressing outlier projections toward the mean and factoring in injury probabilities, to generate more reliable value assessments. The output should not be a single point estimate but a representation of a player's likely range of outcomes.
+
+Core Principles & Directives
+
+Principle: A player's value is not their total points, but how much they outscore a replacement-level player at their position.1
+Directive: Calculate a "Value Over Replacement Player" (VORP) score for every player to enable cross-positional comparisons.3
+Directive: Establish a clear, consistent positional baseline (e.g., the last projected starter) to calculate value scores.2
+Principle: The accuracy of VBD is entirely dependent on the accuracy of the underlying player projections.2
+Directive: Use VBD to create a single, unified draft board that ranks all players by their relative value, not their raw projected points.1

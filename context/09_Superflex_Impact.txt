@@ -1,0 +1,21 @@
+Roster Settings: The Superflex/2-QB Paradigm Shift
+
+No roster setting alters draft strategy more profoundly than the addition of a Superflex (a flex spot where a QB can be started) or a mandatory second starting QB.
+
+A New Scarcity Model
+
+This change fundamentally rewrites the supply and demand dynamics of the quarterback position.33 In a standard 1-QB league, the supply of startable QBs exceeds the demand, making it a deep position that can be addressed in the middle or late rounds. In a 12-team Superflex or 2-QB league, the weekly demand for starting quarterbacks (20-24) now meets or exceeds the supply of reliable NFL starters (roughly 32, with many being undesirable for fantasy).34
+This transforms the quarterback from a commodity into the single most valuable and scarce asset in the draft.33 Consequently, quarterbacks are elevated from mid-round picks to premium, early-round selections.34 The distinction between the formats is subtle but important: a 2-QB league is more rigid and further increases QB value because a team
+must start two. A Superflex league offers an "escape hatch," as a manager can start another position player in that slot, though doing so is almost always a suboptimal play that concedes a significant positional advantage.34
+
+Navigating the QB Run
+
+The central strategic challenge in these formats is navigating the inevitable "QB run".33 A Superflex draft becomes a high-stakes game of chicken, where each manager must decide when to "flinch" and draft a quarterback. Waiting one pick too long can be disastrous. This dynamic requires a game-theory-based approach where a manager must anticipate opponent behavior and decide whether to initiate a run, join it, or deliberately fade it as a contrarian play. The value of quarterbacks is not static; it changes dynamically based on how many have been taken off the board, demanding the most adaptive and reactive strategic logic.36
+
+Core Principles & Directives
+
+Principle: Adding a Superflex or 2nd QB starting spot fundamentally alters supply and demand, transforming the quarterback into the most valuable and scarce position.33
+Directive: Elevate quarterbacks to premium, early-round selections in Superflex/2-QB formats.34
+Principle: A 2-QB league is more rigid and demanding than a Superflex league, as you must start two QBs, further increasing their value.34
+Directive: Anticipate and strategically navigate the inevitable "QB run"; decide whether to initiate it, join it, or fade it as a contrarian play.33
+Principle: The value of any given quarterback is not static but changes dynamically based on how many have already been drafted.36

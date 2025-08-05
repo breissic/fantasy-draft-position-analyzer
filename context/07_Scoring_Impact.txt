@@ -1,0 +1,24 @@
+The Impact of Scoring and League Format: Adjusting Strategy to the Environment
+
+A truly robust draft strategy is not universal; it must be adaptive. The specific rules of a fantasy league—its scoring system, size, and roster requirements—create a unique strategic environment. Adjusting to these variables is as critical as accurately valuing players.
+
+Scoring Systems: How Points Per Reception (PPR) Reshapes the Landscape
+
+The method by which points are awarded fundamentally alters the relative value of player archetypes and, by extension, the viability of different draft strategies. The most significant divergence in modern fantasy football is between standard and reception-based scoring formats.
+
+Standard (Non-PPR): The Primacy of Yardage and Touchdowns
+
+In standard scoring formats, player value is derived almost exclusively from yardage and, most importantly, touchdowns.28 Because overall scores are lower, touchdowns have a disproportionately large impact on weekly outcomes, making players with significant goal-line equity extremely valuable.29 This system elevates the worth of traditional "two-down grinder" running backs who may not be heavily involved in the passing game but handle the majority of carries and goal-line work. Consequently, the Robust RB strategy is often most effective in this format, as it prioritizes securing the scarce supply of touchdown-scoring running backs.
+
+Full-PPR and Half-PPR: The Ascendancy of Volume
+
+Points Per Reception (PPR) formats fundamentally change the valuation equation by adding a new, highly stable source of points: the reception itself.28 This shifts player value away from being purely touchdown-dependent and toward being volume-dependent.29 A player's target share becomes a critical metric for evaluation.
+This shift dramatically increases the value of pass-catching running backs and high-volume slot wide receivers, who can accumulate fantasy points steadily through receptions even without significant yardage or touchdowns.30 This dynamic makes the Zero RB and Hero RB strategies far more viable. The pool of useful late-round running backs expands to include pass-catching specialists who can provide a safe weekly floor, making it less risky to wait on the position.21 Half-PPR serves as a middle ground, rewarding receptions but not to the same degree as full PPR, making it a format where all major strategies can be effectively deployed.29
+
+Core Principles & Directives
+
+Principle: Standard (Non-PPR) scoring magnifies the value of touchdowns and elevates players with high yardage totals and significant goal-line equity.28
+Directive: In Standard leagues, prioritize touchdown-scoring running backs, making Robust RB a more viable strategy.
+Principle: PPR scoring shifts value from touchdown-dependency to volume-dependency, making target share a critical evaluation metric.29
+Directive: In PPR leagues, elevate the value of pass-catching running backs and high-volume wide receivers, making Zero RB and Hero RB more effective strategies.21
+Principle: Half-PPR serves as a balanced middle ground, rewarding receptions but still placing significant weight on touchdowns, allowing for broad strategic flexibility.29

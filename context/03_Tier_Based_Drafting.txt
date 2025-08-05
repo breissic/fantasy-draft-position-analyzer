@@ -1,0 +1,19 @@
+Tier-Based Drafting: Navigating Value Plateaus and Cliffs
+
+Tier-based drafting is a practical and highly effective method that synthesizes the principles of VBD and scarcity into an intuitive, actionable draft-day tool. It involves grouping players of similar projected value into horizontal tiers, rather than relying on a rigid, vertical rank list.9
+
+Core Principle and Strategic Application
+
+This approach acknowledges the inherent uncertainty in fantasy projections. The statistical difference between the WR10 and WR11 is often negligible, so treating them as functionally equivalent within the same tier is a more intellectually honest approach to valuation.10 The most critical information that tiers provide is not the players within them, but the
+gaps between them.9 These gaps are the talent cliffs.
+The strategic goal is to always draft a player from the highest available tier on the board, regardless of position.2 This prevents "reaching"—selecting a player from a lower tier simply to fill a positional need—which is one of the most common and costly draft-day mistakes.9 For example, if the last Tier 2 quarterback is available, but five Tier 2 wide receivers remain, the quarterback represents a superior value because that elite tier is on the verge of being exhausted.10
+This method provides immense in-draft flexibility and facilitates quick, confident decision-making, which is crucial in a timed draft environment.9 However, like all strategies, its effectiveness is contingent on the quality of the initial rankings used to create the tiers.10
+A sophisticated use of tiering treats it not as a static, pre-draft document, but as a dynamic, real-time heuristic. An advanced system would track the depletion rate of tiers across all positions as the draft unfolds. By modeling the likely tier structure of opponents based on Average Draft Position (ADP) and draft flow, a manager can anticipate positional runs before they happen. If several tight ends are selected in succession, the system should recognize a run is occurring and re-evaluate the urgency of securing a player from that position, even if another player has a slightly higher static VBD score. This transforms tiering from a simple organizational tool into a powerful heuristic for real-time, adaptive strategy.
+
+Core Principles & Directives
+
+Principle: Players within the same tier are functionally equivalent in value; the significant value gaps exist between the tiers.9
+Directive: Always select a player from the highest available tier on the board, regardless of position.2
+Directive: Never "reach" for a player in a lower tier to fill a positional need when a player from a higher tier is available.9
+Principle: The primary goal is to avoid drafting from a position after a "talent cliff" has occurred.
+Directive: Use tiers as a dynamic tool during the draft, anticipating and reacting to positional runs by observing the depletion rate of tiers.
