@@ -16,8 +16,7 @@ if not context_file_references:
             file_path = os.path.join(context_directory, filename)
             print(f"Uploading {file_path}...")
             uploaded_file = client.files.upload(
-                path=file_path,
-                display_name=filename
+                file=file_path
             )
             context_file_references.append(uploaded_file)
     print("Context file upload complete")
@@ -29,19 +28,20 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
     model_name = "gemini-2.5-pro" 
 
     # define generation config to tune output and format
-    generation_config = genai.GenerationConfig(
+    # THIS IS THE CORRECTED STRUCTURE BASED ON THE OFFICIAL DOCUMENTATION
+    generation_config = types.GenerateContentConfig(
         temperature=0.2,
-        response_mime_type="application/json"
+        response_mime_type="application/json",
+        system_instruction="""
+        You are an elite fantasy football draft analyst AI. Your sole purpose is to provide draft recommendations based on the provided strategic frameworks, league rules, and current draft status.
+        You will analyze all provided context files and adhere strictly to their principles.
+        Your output MUST be a valid JSON object following the structure shown in the example.
+        IMPORTANT: The context files contain citation numbers that appear as plain numbers in sentences. For example: "...making them inefficient investments of high draft capital.20", 20 is the citation number. You MUST ignore these numbers completely and never include them in your response. However, relevant numbers that are a part of the actual context information should still be fully considered.
+        Do not return overly verbose reasoning, keep it to a concise sentence for each position.
+        """
     )
-
-    # system instructions + few-shot example
-    system_prompt = """
-    You are an elite fantasy football draft analyst AI. Your sole purpose is to provide draft recommendations based on the provided strategic frameworks, league rules, and current draft status.
-    You will analyze all provided context files and adhere strictly to their principles.
-    Your output MUST be a valid JSON object following the structure shown in the example.
-    """
-
-    # afforementioned example
+    
+    # few-shot example
     example_user_input = """
     **League Configuration & Draft Status:**
     * Roster Settings: 1QB, 2RB, 2WR, 1TE, 1FLEX
@@ -53,11 +53,11 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
 
     example_model_output = {
         "recommendations": [
-            {"position": "RB", "priority": 1, "justification": "Your roster has a clear need at RB and the value for top RBs drops significantly after this round."},
-            {"position": "WR", "priority": 2, "justification": "A top-tier WR is still available and would be a strong value pick here."},
-            {"position": "TE", "priority": 3, "justification": "While not a critical need, the last elite TE is on the board, presenting a scarcity advantage."}
+            {"position": "RB", "priority": 1, "justification": "Completes a 'Robust RB' build by securing a second foundational player at a scarce position, creating a significant weekly advantage."},
+            {"position": "WR", "priority": 2, "justification": "Builds roster flexibility. The WR position is deep, but securing a high-upside player here maintains balance."},
+            {"position": "TE", "priority": 3, "justification": "Addresses a starting position. While less urgent than RB/WR, a TE pick here can exploit a potential tier drop at the position."}
         ],
-        "reasoning": "The primary recommendation is RB due to positional scarcity and your current roster construction. The value over replacement for an RB in this round is extremely high."
+        "reasoning": "The primary need is a second RB to complete a strong starting corps. This aligns with a 'Robust RB' strategy, which is powerful given the current roster construction."
     }
 
     # build dynamic user prompt (the actual request)
@@ -65,7 +65,7 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
     **League Configuration & Draft Status:**
     * Roster Settings: {roster_settings}
     * Scoring Format: {scoring_format}
-    * League Size: {league_size}
+    * League Size: {league_size} Teams
     * Current Round: {current_round}
     * My Current Roster: {current_roster}
     ---
@@ -73,9 +73,8 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
     """
 
     # full prompt construction
-    # system -> examples -> real request
+    # The system instruction is now in the config object, so it is NOT included here.
     final_prompt = [
-        system_prompt,
         *context_file_references,
         example_user_input,
         json.dumps(example_model_output),
@@ -87,7 +86,7 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
     response = client.models.generate_content(
         model=model_name,
         contents=final_prompt,
-        generation_config=generation_config
+        config=generation_config
     )
 
     return json.loads(response.text)
