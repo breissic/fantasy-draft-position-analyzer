@@ -1,0 +1,21 @@
+Late-Round Positions: Kicker and Defense/Special Teams (D/ST)
+Foundational Rationale: Opportunity Cost and High Variance
+The Kicker (K) and Defense/Special Teams (D/ST) positions are unique in fantasy football due to their high year-to-year variance and relatively flat scoring distribution. The performance of these positions is notoriously difficult to predict, and the point differential between the top-scoring option and a replacement-level option is significantly smaller than at any other position.
+
+Because of this, the consensus and mathematically optimal strategy is to de-prioritize these positions until the final rounds of the draft. Every draft pick is a valuable asset, and the opportunity cost of selecting a Kicker or D/ST in the middle rounds is immense. That pick could instead be used to acquire a running back or wide receiver with the potential to break out and become a weekly starter—an outcome that has a far greater impact on a team's championship equity. Drafting K and D/ST early is a strategically unsound allocation of limited draft capital.
+
+The Streaming Strategy
+The modern approach to managing these positions is known as "streaming." This involves forgoing a single, season-long option in favor of picking up different Kickers and D/STs from the waiver wire each week based on favorable matchups. A manager can often achieve top-tier production over the course of a season by consistently targeting defenses playing against weak offenses or kickers playing in high-scoring games or favorable weather conditions.
+
+Since the value of these positions is primarily derived from weekly matchups rather than inherent talent, investing anything more than a late-round pick is an inefficient use of resources. The players selected in the final rounds are often just placeholders for the first week before the streaming process begins.
+
+Core Principles & Directives
+Principle: The Kicker and D/ST positions have the lowest opportunity cost and the highest weekly variance, making them the least important positions to address during the draft.
+
+Directive: Do not draft a Kicker or D/ST before the final two rounds of the draft under any circumstances.
+
+Principle: The primary value at these positions is derived from weekly matchups, which can be exploited via the waiver wire ("streaming").
+
+Directive: Use all mid-to-late round picks (rounds 8-14) to build depth and acquire high-upside "lottery ticket" players at the RB and WR positions.
+
+Directive: In the second-to-last round, draft a D/ST. In the final round of the draft, draft a Kicker.

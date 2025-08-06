@@ -33,18 +33,26 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
         temperature=0.2,
         response_mime_type="application/json",
         system_instruction="""
-        You are an elite fantasy football draft analyst AI. Your sole purpose is to provide draft recommendations based on the provided strategic frameworks, league rules, and current draft status.
+        You are an elite fantasy football draft analyst AI. Your sole purpose is to provide draft recommendations based on the provided strategic frameworks, league rules, roster settings, and current draft status.
         You will analyze all provided context files and adhere strictly to their principles.
         Your output MUST be a valid JSON object following the structure shown in the example.
         IMPORTANT: The context files contain citation numbers that appear as plain numbers in sentences. For example: "...making them inefficient investments of high draft capital.20", 20 is the citation number. You MUST ignore these numbers completely and never include them in your response. However, relevant numbers that are a part of the actual context information should still be fully considered.
         Do not return overly verbose reasoning, keep it to a concise sentence for each position.
+        Common abbreviations:
+        QB = quarterback
+        RB = running back
+        WR = wide receiver
+        TE = tight end
+        K = Kicker
+        D/ST = Defense/Special Teams
+        FLEX/SUPERFLEX = Flex/Superflex
         """
     )
     
     # few-shot example
     example_user_input = """
     **League Configuration & Draft Status:**
-    * Roster Settings: 1QB, 2RB, 2WR, 1TE, 1FLEX
+    * Roster Settings: 1QB, 2RB, 2WR, 1TE, 1FLEX, 1K, 6Bench
     * Scoring Format: Half-PPR
     * League Size: 12 Teams
     * Current Round: 3

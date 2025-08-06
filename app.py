@@ -25,6 +25,8 @@ class App(DraftApp):
         self.add_rb_button.configure(command=lambda: self.add_to_roster("RB"))
         self.add_wr_button.configure(command=lambda: self.add_to_roster("WR"))
         self.add_te_button.configure(command=lambda: self.add_to_roster("TE"))
+        self.add_k_button.configure(command=lambda: self.add_to_roster("K"))
+        self.add_dst_button.configure(command=lambda: self.add_to_roster("D/ST"))
 
     def next_round_callback(self):
         """
