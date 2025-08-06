@@ -38,6 +38,7 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
         Your output MUST be a valid JSON object following the structure shown in the example.
         IMPORTANT: The context files contain citation numbers that appear as plain numbers in sentences. For example: "...making them inefficient investments of high draft capital.20", 20 is the citation number. You MUST ignore these numbers completely and never include them in your response. However, relevant numbers that are a part of the actual context information should still be fully considered.
         Do not return overly verbose reasoning, keep it to a concise sentence for each position.
+        Only acknowkledge superflex-specific strategy in the event that the provided roster settings contain one or more of the SUPERFLEX position. Otherwise, disregard any superflex-specific strategy.
         Common abbreviations:
         QB = quarterback
         RB = running back
