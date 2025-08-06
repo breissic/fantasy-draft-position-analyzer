@@ -56,7 +56,7 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
         D/ST = Defense/Special Teams
         FLEX = Flex
         SUPERFLEX = Superflex
-        BENCH = Bench
+        BE = Bench
         """
     )
     
