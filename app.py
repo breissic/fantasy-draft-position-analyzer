@@ -79,7 +79,7 @@ class App(DraftApp):
         gather all data, call AI, display result
         """
         # gather data from widgets
-        roster_settings = self.roster_entry.get()
+        roster_settings = self.roster_entry.get().upper()
         scoring_format = self.scoring_optionmenu.get()
         league_size = self.size_optionmenu.get()
 
