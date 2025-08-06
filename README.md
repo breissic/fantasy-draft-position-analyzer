@@ -32,7 +32,7 @@ Follow these steps to get the application running on your local machine.
 Clone this project to your local machine using Git:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/breissic/fantasy-draft-position-analyzer
 cd fantasy-draft-position-analyzer
 ```
 
