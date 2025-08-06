@@ -70,6 +70,10 @@ class DraftApp(ctk.CTk):
             self.next_round_button = ctk.CTkButton(controls_frame, text="Next Round", fg_color=BUTTON_COLOR)
             self.next_round_button.grid(row=0, column=2, padx=10, pady=10)
 
+            # undo button
+            self.undo_button = ctk.CTkButton(controls_frame, text="Undo", fg_color=BUTTON_COLOR)
+            self.undo_button.grid(row = 0, column=3, padx=10, pady=10)
+
             # current roster display
             self.roster_display_label = ctk.CTkLabel(controls_frame, text="My Roster:", text_color=TEXT_COLOR)
             self.roster_display_label.grid(row=1, column=0, padx=10, pady=10, sticky="w")

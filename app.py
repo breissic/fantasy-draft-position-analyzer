@@ -16,10 +16,16 @@ class App(DraftApp):
         # state
         self.current_round = 1
         self.current_roster = []
+        
+        # for undo
+        self.last_action = []
+        self.last_position = []
+
 
         # callback connection
         self.next_round_button.configure(command=self.next_round_callback)
         self.recommendation_button.configure(command=self.get_recommendation_callback)
+        self.undo_button.configure(command=self.undo_callback)
 
         self.add_qb_button.configure(command=lambda: self.add_to_roster("QB"))
         self.add_rb_button.configure(command=lambda: self.add_to_roster("RB"))
@@ -32,15 +38,36 @@ class App(DraftApp):
         """
         increment round counter
         """
-
+        self.last_action.append("round")
         self.current_round += 1
         self.round_label.configure(text=f"Current Round: {self.current_round}")
         print(f"Advanced to round {self.current_round}")
     
+    def undo_callback(self):
+        """
+        remove last action
+        """
+        if not self.last_action:
+            return
+        
+        action_type = self.last_action.pop()
+
+        if action_type == "position" and len(self.current_roster) > 0:
+            self.current_roster.remove(self.last_position.pop())
+            self.roster_value_label.configure(text=", ".join(self.current_roster))
+            return
+        elif action_type == "round" and self.current_round > 1:
+            self.current_round -= 1;
+            self.round_label.configure(text=f"Current Round: {self.current_round}")
+            return
+        
+
     def add_to_roster(self, position):
         """
         add a position to the roster list
         """
+        self.last_action.append("position")
+        self.last_position.append(position)
         self.current_roster.append(position)
         self.current_roster.sort()
         self.roster_value_label.configure(text=", ".join(self.current_roster))
