@@ -47,7 +47,7 @@ class DraftApp(ctk.CTk):
         # scoring
         scoring_label = ctk.CTkLabel(setup_frame, text="Scoring Format:", text_color=TEXT_COLOR)
         scoring_label.grid(row=0, column=2, padx=10, pady=10, sticky="w")
-        self.scoring_optionmenu = ctk.CTkOptionMenu(setup_frame, values=["Full PPR", "Half-PPR", "Standard (Non-PPR)"])
+        self.scoring_optionmenu = ctk.CTkOptionMenu(setup_frame, values=["Full PPR", "Half-PPR", "Standard/Non-PPR"])
         self.scoring_optionmenu.grid(row=0, column=3, padx=10, pady=10, sticky="ew")
 
         # league size
