@@ -17,7 +17,7 @@ class DraftApp(ctk.CTk):
 
         # base config
         self.title("Fantasy Football AI Draft Assistant")
-        self.geometry("850x650")
+        self.geometry("940x690")
         ctk.set_appearance_mode("dark")
 
         # layout config
@@ -41,7 +41,7 @@ class DraftApp(ctk.CTk):
         # roster
         roster_label = ctk.CTkLabel(setup_frame, text="Roster Settings:", text_color=TEXT_COLOR)
         roster_label.grid(row=0, column=0, padx=10, pady=10, sticky="w")
-        self.roster_entry = ctk.CTkEntry(setup_frame, placeholder_text="1QB, 2RB, 2WR, 1TE, 1FLEX, 1D/ST, 1K, 7BE", width=350)
+        self.roster_entry = ctk.CTkEntry(setup_frame, placeholder_text="e.g., 1QB, 2RB, 2WR, 1TE, 1FLEX, 1D/ST, 1K, 7BE", width=350)
         self.roster_entry.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
 
         # scoring
