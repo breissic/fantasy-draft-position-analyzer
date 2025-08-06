@@ -46,6 +46,7 @@ def get_draft_recommendation(roster_settings, scoring_format, league_size, curre
         K = Kicker
         D/ST = Defense/Special Teams
         FLEX/SUPERFLEX = Flex/Superflex
+        BE = Bench
         """
     )
     
